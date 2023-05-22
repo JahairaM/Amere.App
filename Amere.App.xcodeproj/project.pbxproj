@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0249D0F62A1B9D8200C64AA1 /* RingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249D0F52A1B9D8200C64AA1 /* RingsView.swift */; };
+		0249D0F82A1B9DFF00C64AA1 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249D0F72A1B9DFF00C64AA1 /* Color+Extension.swift */; };
+		0249D0FA2A1B9E3000C64AA1 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249D0F92A1B9E3000C64AA1 /* ActivityRingView.swift */; };
 		02B70E4A2A1444220085639C /* Amere_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B70E492A1444220085639C /* Amere_AppApp.swift */; };
 		02B70E4C2A1444220085639C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B70E4B2A1444220085639C /* ContentView.swift */; };
 		02B70E4E2A1444230085639C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B70E4D2A1444230085639C /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0249D0F52A1B9D8200C64AA1 /* RingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingsView.swift; sourceTree = "<group>"; };
+		0249D0F72A1B9DFF00C64AA1 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		0249D0F92A1B9E3000C64AA1 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityRingView.swift; path = ../ActivityRingView.swift; sourceTree = "<group>"; };
 		02B70E462A1444220085639C /* Amere.App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amere.App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B70E492A1444220085639C /* Amere_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amere_AppApp.swift; sourceTree = "<group>"; };
 		02B70E4B2A1444220085639C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				02B70E492A1444220085639C /* Amere_AppApp.swift */,
+				0249D0F92A1B9E3000C64AA1 /* ActivityRingView.swift */,
 				02B70E4B2A1444220085639C /* ContentView.swift */,
+				0249D0F52A1B9D8200C64AA1 /* RingsView.swift */,
+				0249D0F72A1B9DFF00C64AA1 /* Color+Extension.swift */,
 				02B70E4D2A1444230085639C /* Assets.xcassets */,
 				02B70E4F2A1444230085639C /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				02B70E4C2A1444220085639C /* ContentView.swift in Sources */,
 				02B70E4A2A1444220085639C /* Amere_AppApp.swift in Sources */,
+				0249D0F82A1B9DFF00C64AA1 /* Color+Extension.swift in Sources */,
+				0249D0F62A1B9D8200C64AA1 /* RingsView.swift in Sources */,
+				0249D0FA2A1B9E3000C64AA1 /* ActivityRingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
