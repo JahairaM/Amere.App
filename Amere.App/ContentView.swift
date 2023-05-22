@@ -16,6 +16,7 @@ struct ContentView: View {
     }
     
     var body: some View {
+        RingsView()
         NavigationView {
             List {
                 ForEach(items, id: \.self) { item in
@@ -80,7 +81,7 @@ struct AddActivityView: View {
                     })
                 }
             }
-            .navigationBarTitle("New Activity")
+            .navigationBarTitle("Activity Name")
         }
         .preferredColorScheme(.dark) // Set the preferred color scheme to dark
     }
